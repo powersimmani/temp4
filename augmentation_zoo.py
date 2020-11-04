@@ -4,6 +4,8 @@ import torch, code,copy, torchvision
 from torchvision import transforms
 from cifar_dataset import cifar10
 
+print("hello world")
+
 transform = transforms.Compose(
     [transforms.ToTensor(),
      transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
